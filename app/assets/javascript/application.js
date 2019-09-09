@@ -8,15 +8,12 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 require("")
-= require jquery
-= require jquery_ujs
-= require turbolinks
-= require_tree .
+//= require jquery
+//= require jquery_ujs
+//= require bootstrap
+//= require turbolinks
+//= require_tree 
 
-
-= require grayscale-sass/assets/bower_components/jquery.easing/js/jquery.easing.js
-= require grayscale-sass/assets/bower_components/bootstrap/dist/js/bootstrap.js
-= require grayscale-sass/assets/js/grayscale.js
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
