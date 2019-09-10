@@ -23,12 +23,12 @@ gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap', '~> 4.0'
-group :assets do
-  gem 'therubyracer'
-  # gem 'sass-rails', "  ~> 3.1.0"
-  gem 'coffee-rails'
-  gem 'uglifier', '~> 2.7'
-end
+# group :assets do
+#   gem 'therubyracer'
+#   # gem 'sass-rails', "  ~> 3.1.0"
+#   gem 'coffee-rails'
+#   gem 'uglifier', '~> 2.7'
+# end
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
