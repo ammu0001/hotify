@@ -5,9 +5,12 @@ ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
+# gem 'rails', '~> 5.0.0.beta1'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3', '~> 1.4'
 gem 'pg'
+# gem 'shareable'
+# gem 'social-share-button'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -27,11 +30,11 @@ gem 'bootstrap', '~> 4.0'
 #   gem 'therubyracer'
 #   # gem 'sass-rails', "  ~> 3.1.0"
 #   gem 'coffee-rails'
-#   gem 'uglifier', '~> 2.7'
+  gem 'uglifier', '~> 2.7'
 # end
 
 # Use Active Storage variant
-# gem 'image_processing', '~> 1.2'
+gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false

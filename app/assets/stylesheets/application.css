@@ -19,11 +19,12 @@
  /* Sticky Footer Classes */
 
 
- /*#body{*/
-  /*background: url(Pink_icon.png) right bottom no-repeat, url(Pink rectangle icon.png) left top repeat;*/
-/*}*/
+ #body{
+  width:100%;
+  height: 100%;
+}
 
-html,
+/*html,
 
 
 #page-content {
@@ -32,12 +33,58 @@ html,
 
 #sticky-footer {
   flex-shrink: none;
-}
+}*/
 
 /* Other Classes for Page Styling */
 
-footer {
-  background: rgb(86, 109, 143);
-  background: linear-gradient(to right, rgb(86, 109, 143);, rgb(86, 109, 143););
+
+
+/*footer {
+  background: none;
+  background: linear-gradient(to right, #e9b3bc #e9b3bc);
+}*/
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
  

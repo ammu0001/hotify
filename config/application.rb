@@ -1,6 +1,7 @@
 require_relative 'boot'
 
 require 'rails/all'
+# require "active_storage/engine"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -10,9 +11,9 @@ Bundler.require(*Rails.groups)
 module Hotify
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 6.0
+    # config.load_defaults 6.0
     # config.assets.initialize_on_precompile = false
-    Bundler.require(:default, :assets, Rails.env)
+    # Bundler.require(:default, :assets, Rails.env)
     config.assets.initialize_on_precompile = false
 
 
